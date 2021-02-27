@@ -30,7 +30,7 @@ var brojacpopred = 0;
 var brojacposem = 0;
 var brojacospred = 0;
 var brojacpipred = 0;
-
+localStorage.setItem("brojacpopred", "0");
 gumbdodajoi.addEventListener("click", function () {
   brojacoipred = outputoi.innerText;
   brojacoipred++;
