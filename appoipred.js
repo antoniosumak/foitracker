@@ -22,6 +22,7 @@ const outputospred = document.getElementById("osoutputpred");
 const gumbdodajpipred = document.getElementById("dodajpipred");
 const gumboduzmipipred = document.getElementById("oduzmipipred");
 const outputpipred = document.getElementById("pioutputpred");
+const kanta = document.getElementById("kanta");
 var brojacoisem = 0;
 var brojacoipred = 0;
 var brojacppppred = 0;
@@ -175,3 +176,8 @@ for (let i = 0; i < localStorage.length; i++) {
   const pipred = localStorage.getItem("brojacpipred");
   outputpipred.innerHTML = `${pipred}`;
 }
+
+kanta.addEventListener("click", function () {
+  localStorage.clear();
+  location.reload();
+});

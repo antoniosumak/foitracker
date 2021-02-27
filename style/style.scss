@@ -68,3 +68,13 @@
   background-color: #3f8fa9;
   color: white;
 }
+#kanta {
+  color: #da3f6d;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+#kanta:hover {
+  cursor: pointer;
+  color: red;
+  transition: all 0.3s;
+}
