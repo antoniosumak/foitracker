@@ -30,7 +30,30 @@ var brojacpopred = 0;
 var brojacposem = 0;
 var brojacospred = 0;
 var brojacpipred = 0;
-localStorage.setItem("brojacpopred", "0");
+if (localStorage.getItem("brojacoipred") === null) {
+  localStorage.setItem("brojacoipred", "0");
+}
+if (localStorage.getItem("brojacoisem") === null) {
+  localStorage.setItem("brojacoisem", "0");
+}
+if (localStorage.getItem("brojacppppred") === null) {
+  localStorage.setItem("brojacppppred", "0");
+}
+if (localStorage.getItem("brojacpppsem") === null) {
+  localStorage.setItem("brojacpppsem", "0");
+}
+if (localStorage.getItem("brojacpopred") === null) {
+  localStorage.setItem("brojacpopred", "0");
+}
+if (localStorage.getItem("brojacposem") === null) {
+  localStorage.setItem("brojacposem", "0");
+}
+if (localStorage.getItem("brojacospred") === null) {
+  localStorage.setItem("brojacospred", "0");
+}
+if (localStorage.getItem("brojacpipred") === null) {
+  localStorage.setItem("brojacpipred", "0");
+}
 console.log(localStorage);
 gumbdodajoi.addEventListener("click", function () {
   brojacoipred = outputoi.innerText;
