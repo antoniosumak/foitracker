@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.izostanci {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.input {
+  position: relative;
+  width: 100%;
+  height: 8vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+  border-radius: 990px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .counter {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 100px;
+    output {
+      padding: 0px 10px;
+    }
+    .dodaj {
+      background-color: white;
+      color: #d31245;
+    }
+    .oduzmi {
+      background-color: white;
+      color: #fcb033;
+    }
+    button {
+      padding: 5px 10px;
+      border-radius: 50%;
+      border: none;
+      outline: none;
+    }
+  }
+  h2 {
+    position: absolute;
+    left: 100px;
+    font-weight: 400;
+  }
+}
+.input.oi,
+.input.ppp,
+.input.po,
+.input.os,
+.input.pi {
+  background-color: #da3f6d;
+  color: white;
+}
+.input.oisem,
+.input.pppsem,
+.input.posem {
+  background-color: #3f8fa9;
+  color: white;
+}

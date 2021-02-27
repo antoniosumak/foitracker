@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.izostanci {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  height: 8vh;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+  border-radius: 990px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input .counter {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 100px;
+}
+
+.input .counter output {
+  padding: 0px 10px;
+}
+
+.input .counter .dodaj {
+  background-color: white;
+  color: #d31245;
+}
+
+.input .counter .oduzmi {
+  background-color: white;
+  color: #fcb033;
+}
+
+.input .counter button {
+  padding: 5px 10px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.input h2 {
+  position: absolute;
+  left: 100px;
+  font-weight: 400;
+}
+
+.input.oi,
+.input.ppp,
+.input.po,
+.input.os,
+.input.pi {
+  background-color: #da3f6d;
+  color: white;
+}
+
+.input.oisem,
+.input.pppsem,
+.input.posem {
+  background-color: #3f8fa9;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
