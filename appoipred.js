@@ -31,6 +31,7 @@ var brojacposem = 0;
 var brojacospred = 0;
 var brojacpipred = 0;
 localStorage.setItem("brojacpopred", "0");
+console.log(localStorage);
 gumbdodajoi.addEventListener("click", function () {
   brojacoipred = outputoi.innerText;
   brojacoipred++;
